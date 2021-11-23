@@ -11,7 +11,8 @@ struct DesafiosView: View {
     var body: some View{
         NavigationView{
                 Color.blue
-        }.navigationTitle("Desafios")
+                .navigationTitle("Desafios")
+        }
     }
 }
 

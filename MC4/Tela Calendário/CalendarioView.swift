@@ -11,7 +11,8 @@ struct CalendarioView: View {
     var body: some View{
         NavigationView{
                 Color.yellow
-        }.navigationTitle("Calendário")
+                .navigationTitle("Calendário")
+        }
     }
 }
 

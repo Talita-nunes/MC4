@@ -11,7 +11,8 @@ struct InicialView: View {
     var body: some View{
         NavigationView{
                 Color.red
-        }.navigationTitle("Inicial")
+                .navigationTitle("Inicial")
+        }
     }
 }
 
