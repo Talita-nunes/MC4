@@ -7,13 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B37829AA274C1A35000065BE /* InicialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37829A9274C1A35000065BE /* InicialView.swift */; };
+		B37829AC274C1A4C000065BE /* DesafiosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37829AB274C1A4C000065BE /* DesafiosView.swift */; };
+		B37829AE274C1A5C000065BE /* CalendarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37829AD274C1A5C000065BE /* CalendarioView.swift */; };
+		B37F2C8D274D5A83004021ED /* AppClipParteDoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F2C8C274D5A83004021ED /* AppClipParteDoAppApp.swift */; };
+		B37F2C8F274D5A83004021ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F2C8E274D5A83004021ED /* ContentView.swift */; };
+		B37F2C91274D5A87004021ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37F2C90274D5A87004021ED /* Assets.xcassets */; };
+		B37F2C94274D5A87004021ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37F2C93274D5A87004021ED /* Preview Assets.xcassets */; };
+		B37F2C99274D5A87004021ED /* AppClipParteDoApp.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = B37F2C8A274D5A83004021ED /* AppClipParteDoApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B37F2CA0274D5B5D004021ED /* ViewComando.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F2C9F274D5B5D004021ED /* ViewComando.swift */; };
+		B37F2CA1274D5B85004021ED /* ViewComando.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F2C9F274D5B5D004021ED /* ViewComando.swift */; };
+		B37F2CA2274D5BEF004021ED /* DesafiosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37829AB274C1A4C000065BE /* DesafiosView.swift */; };
 		B3F25D67273ED17400266C90 /* MC4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D66273ED17400266C90 /* MC4App.swift */; };
 		B3F25D69273ED17400266C90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D68273ED17400266C90 /* ContentView.swift */; };
 		B3F25D6B273ED17700266C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6A273ED17700266C90 /* Assets.xcassets */; };
 		B3F25D6E273ED17700266C90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B37F2C97274D5A87004021ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3F25D5B273ED17400266C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B37F2C89274D5A83004021ED;
+			remoteInfo = AppClipParteDoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B37F2C9A274D5A87004021ED /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				B37F2C99274D5A87004021ED /* AppClipParteDoApp.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B37829A9274C1A35000065BE /* InicialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicialView.swift; sourceTree = "<group>"; };
+		B37829AB274C1A4C000065BE /* DesafiosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafiosView.swift; sourceTree = "<group>"; };
+		B37829AD274C1A5C000065BE /* CalendarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioView.swift; sourceTree = "<group>"; };
+		B37F2C8A274D5A83004021ED /* AppClipParteDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppClipParteDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37F2C8C274D5A83004021ED /* AppClipParteDoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipParteDoAppApp.swift; sourceTree = "<group>"; };
+		B37F2C8E274D5A83004021ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B37F2C90274D5A87004021ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B37F2C93274D5A87004021ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B37F2C95274D5A87004021ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37F2C96274D5A87004021ED /* AppClipParteDoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppClipParteDoApp.entitlements; sourceTree = "<group>"; };
+		B37F2C9F274D5B5D004021ED /* ViewComando.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComando.swift; sourceTree = "<group>"; };
 		B3F25D63273ED17400266C90 /* MC4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F25D66273ED17400266C90 /* MC4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC4App.swift; sourceTree = "<group>"; };
 		B3F25D68273ED17400266C90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +68,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B37F2C87274D5A83004021ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3F25D60273ED17400266C90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +85,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B37829AF274C1A6C000065BE /* Tela Inicial */ = {
+			isa = PBXGroup;
+			children = (
+				B37829A9274C1A35000065BE /* InicialView.swift */,
+			);
+			path = "Tela Inicial";
+			sourceTree = "<group>";
+		};
+		B37829B0274C1A7E000065BE /* Tela Desafio */ = {
+			isa = PBXGroup;
+			children = (
+				B37829AB274C1A4C000065BE /* DesafiosView.swift */,
+			);
+			path = "Tela Desafio";
+			sourceTree = "<group>";
+		};
+		B37829B3274C1AA8000065BE /* Tela Calendário */ = {
+			isa = PBXGroup;
+			children = (
+				B37829AD274C1A5C000065BE /* CalendarioView.swift */,
+			);
+			name = "Tela Calendário";
+			path = "Tela Calendário";
+			sourceTree = "<group>";
+		};
+		B37F2C8B274D5A83004021ED /* AppClipParteDoApp */ = {
+			isa = PBXGroup;
+			children = (
+				B37F2C8C274D5A83004021ED /* AppClipParteDoAppApp.swift */,
+				B37F2C8E274D5A83004021ED /* ContentView.swift */,
+				B37F2C90274D5A87004021ED /* Assets.xcassets */,
+				B37F2C95274D5A87004021ED /* Info.plist */,
+				B37F2C96274D5A87004021ED /* AppClipParteDoApp.entitlements */,
+				B37F2C92274D5A87004021ED /* Preview Content */,
+			);
+			path = AppClipParteDoApp;
+			sourceTree = "<group>";
+		};
+		B37F2C92274D5A87004021ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B37F2C93274D5A87004021ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B37F2C9E274D5B38004021ED /* Compartilhado */ = {
+			isa = PBXGroup;
+			children = (
+				B37F2C9F274D5B5D004021ED /* ViewComando.swift */,
+			);
+			path = Compartilhado;
+			sourceTree = "<group>";
+		};
 		B3F25D5A273ED17400266C90 = {
 			isa = PBXGroup;
 			children = (
 				B3F25D65273ED17400266C90 /* MC4 */,
+				B37F2C8B274D5A83004021ED /* AppClipParteDoApp */,
 				B3F25D64273ED17400266C90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				B3F25D63273ED17400266C90 /* MC4.app */,
+				B37F2C8A274D5A83004021ED /* AppClipParteDoApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +162,10 @@
 			children = (
 				B3F25D66273ED17400266C90 /* MC4App.swift */,
 				B3F25D68273ED17400266C90 /* ContentView.swift */,
+				B37F2C9E274D5B38004021ED /* Compartilhado */,
+				B37829B3274C1AA8000065BE /* Tela Calendário */,
+				B37829AF274C1A6C000065BE /* Tela Inicial */,
+				B37829B0274C1A7E000065BE /* Tela Desafio */,
 				B3F25D6A273ED17700266C90 /* Assets.xcassets */,
 				B3F25D6C273ED17700266C90 /* Preview Content */,
 			);
@@ -70,6 +183,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B37F2C89274D5A83004021ED /* AppClipParteDoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37F2C9D274D5A87004021ED /* Build configuration list for PBXNativeTarget "AppClipParteDoApp" */;
+			buildPhases = (
+				B37F2C86274D5A83004021ED /* Sources */,
+				B37F2C87274D5A83004021ED /* Frameworks */,
+				B37F2C88274D5A83004021ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppClipParteDoApp;
+			productName = AppClipParteDoApp;
+			productReference = B37F2C8A274D5A83004021ED /* AppClipParteDoApp.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 		B3F25D62273ED17400266C90 /* MC4 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3F25D71273ED17700266C90 /* Build configuration list for PBXNativeTarget "MC4" */;
@@ -77,10 +207,12 @@
 				B3F25D5F273ED17400266C90 /* Sources */,
 				B3F25D60273ED17400266C90 /* Frameworks */,
 				B3F25D61273ED17400266C90 /* Resources */,
+				B37F2C9A274D5A87004021ED /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B37F2C98274D5A87004021ED /* PBXTargetDependency */,
 			);
 			name = MC4;
 			productName = MC4;
@@ -97,6 +229,9 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					B37F2C89274D5A83004021ED = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					B3F25D62273ED17400266C90 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -116,11 +251,21 @@
 			projectRoot = "";
 			targets = (
 				B3F25D62273ED17400266C90 /* MC4 */,
+				B37F2C89274D5A83004021ED /* AppClipParteDoApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B37F2C88274D5A83004021ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37F2C94274D5A87004021ED /* Preview Assets.xcassets in Resources */,
+				B37F2C91274D5A87004021ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3F25D61273ED17400266C90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +278,107 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B37F2C86274D5A83004021ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37F2CA1274D5B85004021ED /* ViewComando.swift in Sources */,
+				B37F2C8F274D5A83004021ED /* ContentView.swift in Sources */,
+				B37F2CA2274D5BEF004021ED /* DesafiosView.swift in Sources */,
+				B37F2C8D274D5A83004021ED /* AppClipParteDoAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3F25D5F273ED17400266C90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37F2CA0274D5B5D004021ED /* ViewComando.swift in Sources */,
 				B3F25D69273ED17400266C90 /* ContentView.swift in Sources */,
 				B3F25D67273ED17400266C90 /* MC4App.swift in Sources */,
+				B37829AE274C1A5C000065BE /* CalendarioView.swift in Sources */,
+				B37829AC274C1A4C000065BE /* DesafiosView.swift in Sources */,
+				B37829AA274C1A35000065BE /* InicialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B37F2C98274D5A87004021ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B37F2C89274D5A83004021ED /* AppClipParteDoApp */;
+			targetProxy = B37F2C97274D5A87004021ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B37F2C9B274D5A87004021ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppClipParteDoApp/AppClipParteDoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppClipParteDoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HFB9678VY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppClipParteDoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MC4;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.MC4.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG APP CLIP";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B37F2C9C274D5A87004021ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppClipParteDoApp/AppClipParteDoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppClipParteDoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HFB9678VY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppClipParteDoApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MC4;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.MC4.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B3F25D6F273ED17700266C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -264,6 +498,7 @@
 		B3F25D72273ED17700266C90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,13 +521,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B3F25D73273ED17700266C90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,13 +551,22 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B37F2C9D274D5A87004021ED /* Build configuration list for PBXNativeTarget "AppClipParteDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F2C9B274D5A87004021ED /* Debug */,
+				B37F2C9C274D5A87004021ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B3F25D5E273ED17400266C90 /* Build configuration list for PBXProject "MC4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
