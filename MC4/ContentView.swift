@@ -11,26 +11,10 @@ struct ContentView: View {
     var body: some View {
         TabView {
             
-            InicialView()
-                .tabItem{
-                    Image(systemName: "house")
-                    Text("Inicial")
-                }
-            DesafiosView()
-                .tabItem{
-                    Image(systemName: "figure.walk")
-                    Text("Desafios")
-                }
-            
-            CalendarioView()
-                .tabItem{
-                    Image(systemName: "calendar")
-                    Text("Calendário")
-                    
-                }
-        }
+           
         
     }
+}
 }
 
 

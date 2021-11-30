@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B37829AA274C1A35000065BE /* InicialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37829A9274C1A35000065BE /* InicialView.swift */; };
-		B37829AC274C1A4C000065BE /* DesafiosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37829AB274C1A4C000065BE /* DesafiosView.swift */; };
-		B37829AE274C1A5C000065BE /* CalendarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37829AD274C1A5C000065BE /* CalendarioView.swift */; };
 		B37F2C8D274D5A83004021ED /* AppClipParteDoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F2C8C274D5A83004021ED /* AppClipParteDoAppApp.swift */; };
 		B37F2C8F274D5A83004021ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F2C8E274D5A83004021ED /* ContentView.swift */; };
 		B37F2C91274D5A87004021ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37F2C90274D5A87004021ED /* Assets.xcassets */; };
@@ -17,7 +14,6 @@
 		B37F2C99274D5A87004021ED /* AppClipParteDoApp.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = B37F2C8A274D5A83004021ED /* AppClipParteDoApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B37F2CA0274D5B5D004021ED /* ViewComando.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F2C9F274D5B5D004021ED /* ViewComando.swift */; };
 		B37F2CA1274D5B85004021ED /* ViewComando.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F2C9F274D5B5D004021ED /* ViewComando.swift */; };
-		B37F2CA2274D5BEF004021ED /* DesafiosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37829AB274C1A4C000065BE /* DesafiosView.swift */; };
 		B3F25D67273ED17400266C90 /* MC4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D66273ED17400266C90 /* MC4App.swift */; };
 		B3F25D69273ED17400266C90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D68273ED17400266C90 /* ContentView.swift */; };
 		B3F25D6B273ED17700266C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6A273ED17700266C90 /* Assets.xcassets */; };
@@ -49,9 +45,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B37829A9274C1A35000065BE /* InicialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicialView.swift; sourceTree = "<group>"; };
-		B37829AB274C1A4C000065BE /* DesafiosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafiosView.swift; sourceTree = "<group>"; };
-		B37829AD274C1A5C000065BE /* CalendarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioView.swift; sourceTree = "<group>"; };
 		B37F2C8A274D5A83004021ED /* AppClipParteDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppClipParteDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37F2C8C274D5A83004021ED /* AppClipParteDoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipParteDoAppApp.swift; sourceTree = "<group>"; };
 		B37F2C8E274D5A83004021ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,31 +78,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B37829AF274C1A6C000065BE /* Tela Inicial */ = {
-			isa = PBXGroup;
-			children = (
-				B37829A9274C1A35000065BE /* InicialView.swift */,
-			);
-			path = "Tela Inicial";
-			sourceTree = "<group>";
-		};
-		B37829B0274C1A7E000065BE /* Tela Desafio */ = {
-			isa = PBXGroup;
-			children = (
-				B37829AB274C1A4C000065BE /* DesafiosView.swift */,
-			);
-			path = "Tela Desafio";
-			sourceTree = "<group>";
-		};
-		B37829B3274C1AA8000065BE /* Tela Calendário */ = {
-			isa = PBXGroup;
-			children = (
-				B37829AD274C1A5C000065BE /* CalendarioView.swift */,
-			);
-			name = "Tela Calendário";
-			path = "Tela Calendário";
-			sourceTree = "<group>";
-		};
 		B37F2C8B274D5A83004021ED /* AppClipParteDoApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,9 +131,6 @@
 				B3F25D66273ED17400266C90 /* MC4App.swift */,
 				B3F25D68273ED17400266C90 /* ContentView.swift */,
 				B37F2C9E274D5B38004021ED /* Compartilhado */,
-				B37829B3274C1AA8000065BE /* Tela Calendário */,
-				B37829AF274C1A6C000065BE /* Tela Inicial */,
-				B37829B0274C1A7E000065BE /* Tela Desafio */,
 				B3F25D6A273ED17700266C90 /* Assets.xcassets */,
 				B3F25D6C273ED17700266C90 /* Preview Content */,
 			);
@@ -284,7 +249,6 @@
 			files = (
 				B37F2CA1274D5B85004021ED /* ViewComando.swift in Sources */,
 				B37F2C8F274D5A83004021ED /* ContentView.swift in Sources */,
-				B37F2CA2274D5BEF004021ED /* DesafiosView.swift in Sources */,
 				B37F2C8D274D5A83004021ED /* AppClipParteDoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,9 +260,6 @@
 				B37F2CA0274D5B5D004021ED /* ViewComando.swift in Sources */,
 				B3F25D69273ED17400266C90 /* ContentView.swift in Sources */,
 				B3F25D67273ED17400266C90 /* MC4App.swift in Sources */,
-				B37829AE274C1A5C000065BE /* CalendarioView.swift in Sources */,
-				B37829AC274C1A4C000065BE /* DesafiosView.swift in Sources */,
-				B37829AA274C1A35000065BE /* InicialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
