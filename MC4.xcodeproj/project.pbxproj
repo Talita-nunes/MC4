@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B34099C7275FF30500A0F5EA /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099C6275FF30500A0F5EA /* SlideOverCard.swift */; };
+		B34099C8275FF30500A0F5EA /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099C6275FF30500A0F5EA /* SlideOverCard.swift */; };
+		B34099CA275FF34600A0F5EA /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099C9275FF34600A0F5EA /* Handle.swift */; };
+		B34099CB275FF34600A0F5EA /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099C9275FF34600A0F5EA /* Handle.swift */; };
+		B34099CD275FF36800A0F5EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099CC275FF36800A0F5EA /* MapView.swift */; };
+		B34099CE275FF36800A0F5EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099CC275FF36800A0F5EA /* MapView.swift */; };
+		B34099D0275FF3EF00A0F5EA /* TelaPonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099CF275FF3EF00A0F5EA /* TelaPonto.swift */; };
+		B34099D1275FF3EF00A0F5EA /* TelaPonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099CF275FF3EF00A0F5EA /* TelaPonto.swift */; };
+		B34099D3275FF54800A0F5EA /* Tela Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099D2275FF54800A0F5EA /* Tela Inicio.swift */; };
+		B34099D4275FF54800A0F5EA /* Tela Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099D2275FF54800A0F5EA /* Tela Inicio.swift */; };
+		B34099D6275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099D5275FFFFB00A0F5EA /* TelaCriarDesafio.swift */; };
+		B34099D7275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099D5275FFFFB00A0F5EA /* TelaCriarDesafio.swift */; };
 		B37F2CA0274D5B5D004021ED /* ViewComando.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F2C9F274D5B5D004021ED /* ViewComando.swift */; };
 		B3A2B29A2757EA58001C7E94 /* AppClipsLocalizacaoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A2B2992757EA58001C7E94 /* AppClipsLocalizacaoApp.swift */; };
 		B3A2B29C2757EA58001C7E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A2B29B2757EA58001C7E94 /* ContentView.swift */; };
@@ -44,6 +56,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B34099C6275FF30500A0F5EA /* SlideOverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverCard.swift; sourceTree = "<group>"; };
+		B34099C9275FF34600A0F5EA /* Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
+		B34099CC275FF36800A0F5EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B34099CF275FF3EF00A0F5EA /* TelaPonto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaPonto.swift; sourceTree = "<group>"; };
+		B34099D2275FF54800A0F5EA /* Tela Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tela Inicio.swift"; sourceTree = "<group>"; };
+		B34099D5275FFFFB00A0F5EA /* TelaCriarDesafio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCriarDesafio.swift; sourceTree = "<group>"; };
 		B37F2C9F274D5B5D004021ED /* ViewComando.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComando.swift; sourceTree = "<group>"; };
 		B3A2B2972757EA58001C7E94 /* AppClipsLocalizacao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppClipsLocalizacao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A2B2992757EA58001C7E94 /* AppClipsLocalizacaoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipsLocalizacaoApp.swift; sourceTree = "<group>"; };
@@ -77,6 +95,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B34099C5275FF2D800A0F5EA /* Tela ponto */ = {
+			isa = PBXGroup;
+			children = (
+				B34099C9275FF34600A0F5EA /* Handle.swift */,
+				B34099CC275FF36800A0F5EA /* MapView.swift */,
+				B34099C6275FF30500A0F5EA /* SlideOverCard.swift */,
+				B34099CF275FF3EF00A0F5EA /* TelaPonto.swift */,
+				B34099D5275FFFFB00A0F5EA /* TelaCriarDesafio.swift */,
+			);
+			path = "Tela ponto";
+			sourceTree = "<group>";
+		};
 		B37F2C9E274D5B38004021ED /* Compartilhado */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +159,8 @@
 			children = (
 				B3F25D66273ED17400266C90 /* MC4App.swift */,
 				B3F25D68273ED17400266C90 /* ContentView.swift */,
+				B34099D2275FF54800A0F5EA /* Tela Inicio.swift */,
+				B34099C5275FF2D800A0F5EA /* Tela ponto */,
 				B37F2C9E274D5B38004021ED /* Compartilhado */,
 				B3F25D6A273ED17700266C90 /* Assets.xcassets */,
 				B3F25D6C273ED17700266C90 /* Preview Content */,
@@ -248,6 +280,12 @@
 			files = (
 				B3A2B29C2757EA58001C7E94 /* ContentView.swift in Sources */,
 				B3A2B29A2757EA58001C7E94 /* AppClipsLocalizacaoApp.swift in Sources */,
+				B34099CE275FF36800A0F5EA /* MapView.swift in Sources */,
+				B34099D7275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */,
+				B34099D4275FF54800A0F5EA /* Tela Inicio.swift in Sources */,
+				B34099C8275FF30500A0F5EA /* SlideOverCard.swift in Sources */,
+				B34099D1275FF3EF00A0F5EA /* TelaPonto.swift in Sources */,
+				B34099CB275FF34600A0F5EA /* Handle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +294,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37F2CA0274D5B5D004021ED /* ViewComando.swift in Sources */,
+				B34099CD275FF36800A0F5EA /* MapView.swift in Sources */,
+				B34099C7275FF30500A0F5EA /* SlideOverCard.swift in Sources */,
+				B34099D6275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */,
+				B34099CA275FF34600A0F5EA /* Handle.swift in Sources */,
 				B3F25D69273ED17400266C90 /* ContentView.swift in Sources */,
+				B34099D3275FF54800A0F5EA /* Tela Inicio.swift in Sources */,
+				B34099D0275FF3EF00A0F5EA /* TelaPonto.swift in Sources */,
 				B3F25D67273ED17400266C90 /* MC4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
