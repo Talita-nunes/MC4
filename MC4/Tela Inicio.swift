@@ -62,7 +62,7 @@ struct TelaInicio: View {
                         Image("Image2")
                             .resizable()
                             .clipShape(Circle())
-                            .overlay(Circle().stroke(Color.black, lineWidth: 4))
+                            .overlay(Circle().stroke(Color.gray, lineWidth: 4))
                             .frame(width: 70, height: 70)
                         VStack(alignment: .leading){
                             
@@ -96,7 +96,7 @@ struct TelaInicio: View {
                         Image("Image1")
                             .resizable()
                             .clipShape(Circle())
-                            .overlay(Circle().stroke(Color.black, lineWidth: 4))
+                            .overlay(Circle().stroke(Color.gray, lineWidth: 4))
                             .frame(width: 70, height: 70)
                         
                         
@@ -142,7 +142,7 @@ struct TelaInicio: View {
                         Image("Image3")
                             .resizable()
                             .clipShape(Circle())
-                            .overlay(Circle().stroke(Color.black, lineWidth: 4))
+                            .overlay(Circle().stroke(Color.gray, lineWidth: 4))
                             .frame(width: 70, height: 70)
                             .padding(.top, 30)
                             .padding(.trailing, 15)
