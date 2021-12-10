@@ -21,7 +21,7 @@ struct TelaPonto : View {
                     VStack {
                         HStack{
                             
-                            TextField("Escreva um ponto", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                            TextField("Escolha um ponto", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                                 .padding(.leading,
                                          20)
                             
