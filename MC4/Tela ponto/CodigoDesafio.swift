@@ -58,7 +58,7 @@ struct CodigoDesafio: View {
                             .foregroundColor(.gray)
                         
                             .frame(maxWidth: .infinity, alignment: .topLeading)
-                            .padding(.leading, 110)
+                            .padding(.leading, 130)
                             .padding(.top, 10)
                         
                         

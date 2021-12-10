@@ -28,7 +28,7 @@ struct EntrarDesafio: View {
                         
                         
                         Text ("Entre em um desafio")
-                            .font(.system(size: 17, weight: .light, design: .default))
+                            .font(.system(size: 24, weight: .bold, design: .default))
                             .foregroundColor(.black)
                             .frame(maxWidth: .infinity, alignment: .topLeading)
                             .padding(.leading,
