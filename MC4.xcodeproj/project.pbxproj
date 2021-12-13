@@ -40,6 +40,10 @@
 		B3E052FB2767BBC9003D9214 /* Inicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E052FA2767BBC9003D9214 /* Inicial.swift */; };
 		B3E052FC2767BBCA003D9214 /* Inicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E052FA2767BBC9003D9214 /* Inicial.swift */; };
 		B3E052FD2767BBD1003D9214 /* Tela Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099D2275FF54800A0F5EA /* Tela Inicio.swift */; };
+		B3E052FF2767D2E9003D9214 /* ConfirmarPonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E052FE2767D2E9003D9214 /* ConfirmarPonto.swift */; };
+		B3E053002767D2E9003D9214 /* ConfirmarPonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E052FE2767D2E9003D9214 /* ConfirmarPonto.swift */; };
+		B3E053022767D45E003D9214 /* TelaDesafioFinalizado.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E053012767D45E003D9214 /* TelaDesafioFinalizado.swift */; };
+		B3E053032767D45E003D9214 /* TelaDesafioFinalizado.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E053012767D45E003D9214 /* TelaDesafioFinalizado.swift */; };
 		B3F25D67273ED17400266C90 /* MC4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D66273ED17400266C90 /* MC4App.swift */; };
 		B3F25D69273ED17400266C90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D68273ED17400266C90 /* ContentView.swift */; };
 		B3F25D6B273ED17700266C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6A273ED17700266C90 /* Assets.xcassets */; };
@@ -115,6 +119,8 @@
 		B3E052EE2767B219003D9214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3E052F02767B219003D9214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3E052FA2767BBC9003D9214 /* Inicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicial.swift; sourceTree = "<group>"; };
+		B3E052FE2767D2E9003D9214 /* ConfirmarPonto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmarPonto.swift; sourceTree = "<group>"; };
+		B3E053012767D45E003D9214 /* TelaDesafioFinalizado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDesafioFinalizado.swift; sourceTree = "<group>"; };
 		B3F25D63273ED17400266C90 /* MC4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F25D66273ED17400266C90 /* MC4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC4App.swift; sourceTree = "<group>"; };
 		B3F25D68273ED17400266C90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +161,8 @@
 				B34099C9275FF34600A0F5EA /* Handle.swift */,
 				B34099CC275FF36800A0F5EA /* MapView.swift */,
 				B34099C6275FF30500A0F5EA /* SlideOverCard.swift */,
+				B3E052FE2767D2E9003D9214 /* ConfirmarPonto.swift */,
+				B3E053012767D45E003D9214 /* TelaDesafioFinalizado.swift */,
 				B3E052DE2766856B003D9214 /* TelaDesafio.swift */,
 				B34099CF275FF3EF00A0F5EA /* TelaPonto.swift */,
 				B34099D5275FFFFB00A0F5EA /* TelaCriarDesafio.swift */,
@@ -392,8 +400,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E053002767D2E9003D9214 /* ConfirmarPonto.swift in Sources */,
 				B3A2B29C2757EA58001C7E94 /* ContentView.swift in Sources */,
 				B3A2B29A2757EA58001C7E94 /* AppClipsLocalizacaoApp.swift in Sources */,
+				B3E053032767D45E003D9214 /* TelaDesafioFinalizado.swift in Sources */,
 				B34099CE275FF36800A0F5EA /* MapView.swift in Sources */,
 				B34099D7275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */,
 				B34099D4275FF54800A0F5EA /* Tela Inicio.swift in Sources */,
@@ -427,8 +437,10 @@
 				B34099D6275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */,
 				B3E052DF2766856B003D9214 /* TelaDesafio.swift in Sources */,
 				B34099CA275FF34600A0F5EA /* Handle.swift in Sources */,
+				B3E053022767D45E003D9214 /* TelaDesafioFinalizado.swift in Sources */,
 				B3E052D527627D68003D9214 /* EntrarDesafio.swift in Sources */,
 				B3F25D69273ED17400266C90 /* ContentView.swift in Sources */,
+				B3E052FF2767D2E9003D9214 /* ConfirmarPonto.swift in Sources */,
 				B34099D3275FF54800A0F5EA /* Tela Inicio.swift in Sources */,
 				B34099D0275FF3EF00A0F5EA /* TelaPonto.swift in Sources */,
 				B3F25D67273ED17400266C90 /* MC4App.swift in Sources */,
