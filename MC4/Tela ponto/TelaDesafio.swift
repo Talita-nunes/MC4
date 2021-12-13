@@ -37,17 +37,41 @@ struct TelaDesafio: View {
                             
                             Text ("Frase motivacional")
                                 .font(.system(size: 17, weight: .medium, design: .default))
-                                .foregroundColor(.black)
+                                .foregroundColor(.gray)
                                 .frame(maxWidth: .infinity, alignment: .topLeading)
                                 .padding(.leading, 5)
                             
                         }
                     }
                     
+                    Text ("Participantes")
+                        .font(.system(size: 12, weight: .light, design: .default))
+                        .foregroundColor(.gray)
+                        .frame(maxWidth: .infinity, alignment: .topLeading)
+                        .padding(.leading,
+                                 20)
+                        .padding(.top, 24)
                     
 //                    lista de pessoas
                     List{
                         HStack{
+                            
+                            VStack{
+                                
+                                Image("avatarUm")
+                                    .resizable()
+                                    .clipShape(Circle())
+                                    .overlay(Circle().stroke(Color.gray, lineWidth: 4))
+                                    .frame(width: 50, height: 50)
+                                    .padding(.top, 15)
+                                    .padding(.leading, 15)
+                                
+                                Text("Nome da pessoa")
+                                    .font(.system(size: 17, weight: .medium, design: .default))
+                                    .foregroundColor(.gray)
+                                    .frame(maxWidth: .infinity, alignment: .topLeading)
+                                    .padding(.leading, 5)
+                            }
                             
                             
                             
