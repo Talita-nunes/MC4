@@ -33,6 +33,16 @@
 		B3F25D69273ED17400266C90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D68273ED17400266C90 /* ContentView.swift */; };
 		B3F25D6B273ED17700266C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6A273ED17700266C90 /* Assets.xcassets */; };
 		B3F25D6E273ED17700266C90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */; };
+		FA39CFAA2759348A00975A8D /* CadastroUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39CFA92759348900975A8D /* CadastroUsuario.swift */; };
+		FA39CFAC275939AC00975A8D /* CadastroDesafio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39CFAB275939AC00975A8D /* CadastroDesafio.swift */; };
+		FA39CFAE27593C4E00975A8D /* CadastroPontos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39CFAD27593C4E00975A8D /* CadastroPontos.swift */; };
+		FA6AA16F275E9CDE00E229EF /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AA16E275E9CDE00E229EF /* ErrorResponse.swift */; };
+		FA6AA171275EA29100E229EF /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AA170275EA29100E229EF /* AlertService.swift */; };
+		FA6AA173275EA62B00E229EF /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AA172275EA62B00E229EF /* Login.swift */; };
+		FA6AA175275FCB4700E229EF /* MainAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AA174275FCB4700E229EF /* MainAppViewController.swift */; };
+		FA950A61275AA1AF00447618 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA950A60275AA1AE00447618 /* LoginViewController.swift */; };
+		FA950A63275AA96400447618 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA950A62275AA96400447618 /* User.swift */; };
+		FA950A65275AB85400447618 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA950A64275AB85400447618 /* NetworkingService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +92,16 @@
 		B3F25D68273ED17400266C90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3F25D6A273ED17700266C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA39CFA92759348900975A8D /* CadastroUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroUsuario.swift; sourceTree = "<group>"; };
+		FA39CFAB275939AC00975A8D /* CadastroDesafio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroDesafio.swift; sourceTree = "<group>"; };
+		FA39CFAD27593C4E00975A8D /* CadastroPontos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroPontos.swift; sourceTree = "<group>"; };
+		FA6AA16E275E9CDE00E229EF /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		FA6AA170275EA29100E229EF /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		FA6AA172275EA62B00E229EF /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		FA6AA174275FCB4700E229EF /* MainAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppViewController.swift; sourceTree = "<group>"; };
+		FA950A60275AA1AE00447618 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA950A62275AA96400447618 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA950A64275AB85400447618 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,8 +189,21 @@
 				B3F25D66273ED17400266C90 /* MC4App.swift */,
 				B3E052DC2763E22E003D9214 /* Launch Screen.storyboard */,
 				B3F25D68273ED17400266C90 /* ContentView.swift */,
+<<<<<<< Updated upstream
 				B34099D2275FF54800A0F5EA /* Tela Inicio.swift */,
 				B34099C5275FF2D800A0F5EA /* Tela ponto */,
+=======
+				FA6AA172275EA62B00E229EF /* Login.swift */,
+				FA950A60275AA1AE00447618 /* LoginViewController.swift */,
+				FA950A62275AA96400447618 /* User.swift */,
+				FA6AA170275EA29100E229EF /* AlertService.swift */,
+				FA950A64275AB85400447618 /* NetworkingService.swift */,
+				FA6AA16E275E9CDE00E229EF /* ErrorResponse.swift */,
+				FA6AA174275FCB4700E229EF /* MainAppViewController.swift */,
+				FA39CFA92759348900975A8D /* CadastroUsuario.swift */,
+				FA39CFAB275939AC00975A8D /* CadastroDesafio.swift */,
+				FA39CFAD27593C4E00975A8D /* CadastroPontos.swift */,
+>>>>>>> Stashed changes
 				B37F2C9E274D5B38004021ED /* Compartilhado */,
 				B3F25D6A273ED17700266C90 /* Assets.xcassets */,
 				B3F25D6C273ED17700266C90 /* Preview Content */,
@@ -307,6 +340,7 @@
 			files = (
 				B3E052D927629C22003D9214 /* CodigoDesafio.swift in Sources */,
 				B37F2CA0274D5B5D004021ED /* ViewComando.swift in Sources */,
+<<<<<<< Updated upstream
 				B34099CD275FF36800A0F5EA /* MapView.swift in Sources */,
 				B34099C7275FF30500A0F5EA /* SlideOverCard.swift in Sources */,
 				B34099D6275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */,
@@ -315,7 +349,20 @@
 				B3F25D69273ED17400266C90 /* ContentView.swift in Sources */,
 				B34099D3275FF54800A0F5EA /* Tela Inicio.swift in Sources */,
 				B34099D0275FF3EF00A0F5EA /* TelaPonto.swift in Sources */,
+=======
+				FA950A61275AA1AF00447618 /* LoginViewController.swift in Sources */,
+				FA6AA173275EA62B00E229EF /* Login.swift in Sources */,
+				B3F25D69273ED17400266C90 /* ContentView.swift in Sources */,
+				FA39CFAE27593C4E00975A8D /* CadastroPontos.swift in Sources */,
+				FA39CFAA2759348A00975A8D /* CadastroUsuario.swift in Sources */,
+				FA950A65275AB85400447618 /* NetworkingService.swift in Sources */,
+>>>>>>> Stashed changes
 				B3F25D67273ED17400266C90 /* MC4App.swift in Sources */,
+				FA950A63275AA96400447618 /* User.swift in Sources */,
+				FA6AA16F275E9CDE00E229EF /* ErrorResponse.swift in Sources */,
+				FA39CFAC275939AC00975A8D /* CadastroDesafio.swift in Sources */,
+				FA6AA175275FCB4700E229EF /* MainAppViewController.swift in Sources */,
+				FA6AA171275EA29100E229EF /* AlertService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
