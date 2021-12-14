@@ -11,10 +11,12 @@ struct TelaDesafioFinalizado: View {
     var body: some View {
         
         
-        ZStack {
+        ZStack(alignment: Alignment.top){
             TelaDesafio()
             SlideOverCard {
                 VStack{
+                    
+                    Text("Olá mundo")
                     
                     Image("confetti.png")
                         .resizable()
