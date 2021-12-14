@@ -1,13 +1,13 @@
+////
+////  ListElements.swift
+////  MC4
+////
+////  Created by Marcelo Perassi on 13/12/21.
+////
 //
-//  ListElements.swift
-//  MC4
+//import SwiftUI
 //
-//  Created by Marcelo Perassi on 13/12/21.
+//class ListElements: ObservableObject {
+//    @Published var items: [Jorada] = []
+//}
 //
-
-import SwiftUI
-
-class ListElements: ObservableObject {
-    @Published var items: [ListElement] = []
-}
-

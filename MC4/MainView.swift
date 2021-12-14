@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PrincipalView: View {
+struct MainView: View {
     @EnvironmentObject
     var loginSettings: LoginSettings
     
@@ -20,10 +20,10 @@ struct PrincipalView: View {
     }
 }
 
-struct PrincipalView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {
     static let loginSettings = LoginSettings()
     static var previews: some View {
-        PrincipalView().environmentObject(loginSettings)
+        MainView().environmentObject(loginSettings)
     }
 }
 

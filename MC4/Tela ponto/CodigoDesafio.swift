@@ -10,7 +10,7 @@ import SwiftUI
 struct CodigoDesafio: View {
     var body: some View {
         ZStack(alignment: Alignment.top){
-            TelaInicio()
+            TelaInicioView()
             SlideOverCard {
                 ZStack {
                     VStack {

@@ -28,7 +28,7 @@ struct TelaDesafio: View {
     
     var body: some View {
         ZStack {
-            TelaInicio()
+            TelaInicioView()
             
             ScrollView {
                 SlideOverCard {

@@ -15,8 +15,7 @@
 		B34099CE275FF36800A0F5EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099CC275FF36800A0F5EA /* MapView.swift */; };
 		B34099D0275FF3EF00A0F5EA /* TelaPonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099CF275FF3EF00A0F5EA /* TelaPonto.swift */; };
 		B34099D1275FF3EF00A0F5EA /* TelaPonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099CF275FF3EF00A0F5EA /* TelaPonto.swift */; };
-		B34099D3275FF54800A0F5EA /* Tela Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099D2275FF54800A0F5EA /* Tela Inicio.swift */; };
-		B34099D4275FF54800A0F5EA /* Tela Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099D2275FF54800A0F5EA /* Tela Inicio.swift */; };
+		B34099D3275FF54800A0F5EA /* TelaInicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099D2275FF54800A0F5EA /* TelaInicioView.swift */; };
 		B34099D6275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099D5275FFFFB00A0F5EA /* TelaCriarDesafio.swift */; };
 		B34099D7275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34099D5275FFFFB00A0F5EA /* TelaCriarDesafio.swift */; };
 		B37F2CA0274D5B5D004021ED /* ViewComando.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F2C9F274D5B5D004021ED /* ViewComando.swift */; };
@@ -31,7 +30,6 @@
 		B3E052DD2763E22E003D9214 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E052DC2763E22E003D9214 /* Launch Screen.storyboard */; };
 		B3E052DF2766856B003D9214 /* TelaDesafio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E052DE2766856B003D9214 /* TelaDesafio.swift */; };
 		B3F25D67273ED17400266C90 /* MC4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D66273ED17400266C90 /* MC4App.swift */; };
-		B3F25D69273ED17400266C90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D68273ED17400266C90 /* ContentView.swift */; };
 		B3F25D6B273ED17700266C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6A273ED17700266C90 /* Assets.xcassets */; };
 		B3F25D6E273ED17700266C90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */; };
 		B3FC68DC27691A33000A3E7E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC68DB27691A33000A3E7E /* WidgetKit.framework */; };
@@ -41,24 +39,25 @@
 		B3FC68E627691A35000A3E7E /* WidgetDesafios.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B3FC68E227691A33000A3E7E /* WidgetDesafios.intentdefinition */; };
 		B3FC68E727691A35000A3E7E /* WidgetDesafios.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B3FC68E227691A33000A3E7E /* WidgetDesafios.intentdefinition */; };
 		B3FC68EA27691A35000A3E7E /* WidgetDesafiosExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B3FC68DA27691A33000A3E7E /* WidgetDesafiosExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EAEA679E27694457008A743E /* CheckpointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEA679D27694457008A743E /* CheckpointManager.swift */; };
+		EAEA67A02769454E008A743E /* Checkpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEA679F2769454E008A743E /* Checkpoint.swift */; };
 		FA3228702767B297002F5CF0 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32286F2767B297002F5CF0 /* LoginManager.swift */; };
 		FA3228722767B2BD002F5CF0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228712767B2BD002F5CF0 /* LoginView.swift */; };
 		FA3228742767B2E6002F5CF0 /* LoginSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228732767B2E6002F5CF0 /* LoginSettings.swift */; };
 		FA3228782767B32D002F5CF0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3228772767B32D002F5CF0 /* CloudKit.framework */; };
 		FA32287B2767B3AA002F5CF0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32287A2767B3AA002F5CF0 /* UserManager.swift */; };
 		FA32287D2767B3D8002F5CF0 /* ProjetoPeralitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32287C2767B3D8002F5CF0 /* ProjetoPeralitaApp.swift */; };
-		FA32287F2767B3F5002F5CF0 /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32287E2767B3F5002F5CF0 /* PrincipalView.swift */; };
-		FA3228812767B435002F5CF0 /* User.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228802767B435002F5CF0 /* User.swift.swift */; };
-		FA3228832767B459002F5CF0 /* TelaInicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228822767B459002F5CF0 /* TelaInicioView.swift */; };
+		FA32287F2767B3F5002F5CF0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32287E2767B3F5002F5CF0 /* MainView.swift */; };
+		FA3228812767B435002F5CF0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228802767B435002F5CF0 /* User.swift */; };
+		FA3228832767B459002F5CF0 /* TelaInicioView-old.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228822767B459002F5CF0 /* TelaInicioView-old.swift */; };
 		FA3228852767B47F002F5CF0 /* QuickSignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228842767B47F002F5CF0 /* QuickSignInWithApple.swift */; };
 		FA5A547B27691B80006E9D56 /* ConfirmarPonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A547927691B80006E9D56 /* ConfirmarPonto.swift */; };
 		FA5A547C27691B80006E9D56 /* TelaDesafioFinalizado.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A547A27691B80006E9D56 /* TelaDesafioFinalizado.swift */; };
 		FA5A547D27691BB0006E9D56 /* ConfirmarPonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A547927691B80006E9D56 /* ConfirmarPonto.swift */; };
-		FA5A547E27691C00006E9D56 /* TelaDesafio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E052DE2766856B003D9214 /* TelaDesafio.swift */; };
 		FA7FA1312767BD5F0025B2C9 /* JornadaContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1302767BD5F0025B2C9 /* JornadaContentView.swift */; };
-		FA7FA1332767BD9B0025B2C9 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1322767BD9B0025B2C9 /* ListElement.swift */; };
+		FA7FA1332767BD9B0025B2C9 /* Jornada.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1322767BD9B0025B2C9 /* Jornada.swift */; };
 		FA7FA1352767BDC60025B2C9 /* ListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1342767BDC60025B2C9 /* ListElements.swift */; };
-		FA7FA1372767BDE40025B2C9 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1362767BDE40025B2C9 /* CloudKitHelper.swift */; };
+		FA7FA1372767BDE40025B2C9 /* JornadaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1362767BDE40025B2C9 /* JornadaManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,7 +107,7 @@
 		B34099C9275FF34600A0F5EA /* Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
 		B34099CC275FF36800A0F5EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B34099CF275FF3EF00A0F5EA /* TelaPonto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaPonto.swift; sourceTree = "<group>"; };
-		B34099D2275FF54800A0F5EA /* Tela Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tela Inicio.swift"; sourceTree = "<group>"; };
+		B34099D2275FF54800A0F5EA /* TelaInicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicioView.swift; sourceTree = "<group>"; };
 		B34099D5275FFFFB00A0F5EA /* TelaCriarDesafio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCriarDesafio.swift; sourceTree = "<group>"; };
 		B37F2C9F274D5B5D004021ED /* ViewComando.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComando.swift; sourceTree = "<group>"; };
 		B3A2B2972757EA58001C7E94 /* AppClipsLocalizacao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppClipsLocalizacao.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,7 +123,6 @@
 		B3E052DE2766856B003D9214 /* TelaDesafio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDesafio.swift; sourceTree = "<group>"; };
 		B3F25D63273ED17400266C90 /* MC4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F25D66273ED17400266C90 /* MC4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC4App.swift; sourceTree = "<group>"; };
-		B3F25D68273ED17400266C90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3F25D6A273ED17700266C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3FC68DA27691A33000A3E7E /* WidgetDesafiosExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetDesafiosExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +132,8 @@
 		B3FC68E227691A33000A3E7E /* WidgetDesafios.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetDesafios.intentdefinition; sourceTree = "<group>"; };
 		B3FC68E327691A35000A3E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3FC68E527691A35000A3E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAEA679D27694457008A743E /* CheckpointManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointManager.swift; sourceTree = "<group>"; };
+		EAEA679F2769454E008A743E /* Checkpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkpoint.swift; sourceTree = "<group>"; };
 		FA32286F2767B297002F5CF0 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		FA3228712767B2BD002F5CF0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FA3228732767B2E6002F5CF0 /* LoginSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSettings.swift; sourceTree = "<group>"; };
@@ -141,17 +141,17 @@
 		FA3228772767B32D002F5CF0 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		FA32287A2767B3AA002F5CF0 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		FA32287C2767B3D8002F5CF0 /* ProjetoPeralitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoPeralitaApp.swift; sourceTree = "<group>"; };
-		FA32287E2767B3F5002F5CF0 /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
-		FA3228802767B435002F5CF0 /* User.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift.swift; sourceTree = "<group>"; };
-		FA3228822767B459002F5CF0 /* TelaInicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicioView.swift; sourceTree = "<group>"; };
+		FA32287E2767B3F5002F5CF0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FA3228802767B435002F5CF0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA3228822767B459002F5CF0 /* TelaInicioView-old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelaInicioView-old.swift"; sourceTree = "<group>"; };
 		FA3228842767B47F002F5CF0 /* QuickSignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSignInWithApple.swift; sourceTree = "<group>"; };
 		FA5A547927691B80006E9D56 /* ConfirmarPonto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmarPonto.swift; sourceTree = "<group>"; };
 		FA5A547A27691B80006E9D56 /* TelaDesafioFinalizado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaDesafioFinalizado.swift; sourceTree = "<group>"; };
 		FA7FA12E2767BD490025B2C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA7FA1302767BD5F0025B2C9 /* JornadaContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaContentView.swift; sourceTree = "<group>"; };
-		FA7FA1322767BD9B0025B2C9 /* ListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
+		FA7FA1322767BD9B0025B2C9 /* Jornada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jornada.swift; sourceTree = "<group>"; };
 		FA7FA1342767BDC60025B2C9 /* ListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElements.swift; sourceTree = "<group>"; };
-		FA7FA1362767BDE40025B2C9 /* CloudKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
+		FA7FA1362767BDE40025B2C9 /* JornadaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,8 +232,6 @@
 			isa = PBXGroup;
 			children = (
 				FA3228862767BB2B002F5CF0 /* Jornada */,
-				FA3228792767B390002F5CF0 /* Cloudkit */,
-				FA32286E2767B287002F5CF0 /* Login */,
 				B3F25D65273ED17400266C90 /* MC4 */,
 				B3A2B2982757EA58001C7E94 /* AppClipsLocalizacao */,
 				B3FC68DF27691A33000A3E7E /* WidgetDesafios */,
@@ -255,11 +253,14 @@
 		B3F25D65273ED17400266C90 /* MC4 */ = {
 			isa = PBXGroup;
 			children = (
+				FA3228792767B390002F5CF0 /* Cloudkit */,
+				FA32286E2767B287002F5CF0 /* Login */,
 				FA3228752767B315002F5CF0 /* MC4.entitlements */,
 				B3F25D66273ED17400266C90 /* MC4App.swift */,
+				FA32287E2767B3F5002F5CF0 /* MainView.swift */,
 				B3E052DC2763E22E003D9214 /* Launch Screen.storyboard */,
-				B3F25D68273ED17400266C90 /* ContentView.swift */,
-				B34099D2275FF54800A0F5EA /* Tela Inicio.swift */,
+				FA3228822767B459002F5CF0 /* TelaInicioView-old.swift */,
+				B34099D2275FF54800A0F5EA /* TelaInicioView.swift */,
 				B34099C5275FF2D800A0F5EA /* Tela ponto */,
 				B37F2C9E274D5B38004021ED /* Compartilhado */,
 				B3F25D6A273ED17700266C90 /* Assets.xcassets */,
@@ -272,8 +273,6 @@
 			isa = PBXGroup;
 			children = (
 				B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */,
-				FA3228802767B435002F5CF0 /* User.swift.swift */,
-				FA3228822767B459002F5CF0 /* TelaInicioView.swift */,
 				FA3228842767B47F002F5CF0 /* QuickSignInWithApple.swift */,
 			);
 			path = "Preview Content";
@@ -313,9 +312,13 @@
 		FA3228792767B390002F5CF0 /* Cloudkit */ = {
 			isa = PBXGroup;
 			children = (
+				FA7FA1362767BDE40025B2C9 /* JornadaManager.swift */,
+				FA7FA1322767BD9B0025B2C9 /* Jornada.swift */,
+				FA3228802767B435002F5CF0 /* User.swift */,
 				FA32287A2767B3AA002F5CF0 /* UserManager.swift */,
 				FA32287C2767B3D8002F5CF0 /* ProjetoPeralitaApp.swift */,
-				FA32287E2767B3F5002F5CF0 /* PrincipalView.swift */,
+				EAEA679D27694457008A743E /* CheckpointManager.swift */,
+				EAEA679F2769454E008A743E /* Checkpoint.swift */,
 			);
 			path = Cloudkit;
 			sourceTree = "<group>";
@@ -325,9 +328,7 @@
 			children = (
 				FA7FA12E2767BD490025B2C9 /* SceneDelegate.swift */,
 				FA7FA1302767BD5F0025B2C9 /* JornadaContentView.swift */,
-				FA7FA1322767BD9B0025B2C9 /* ListElement.swift */,
 				FA7FA1342767BDC60025B2C9 /* ListElements.swift */,
-				FA7FA1362767BDE40025B2C9 /* CloudKitHelper.swift */,
 			);
 			path = Jornada;
 			sourceTree = "<group>";
@@ -468,11 +469,9 @@
 			files = (
 				FA5A547D27691BB0006E9D56 /* ConfirmarPonto.swift in Sources */,
 				B3A2B29C2757EA58001C7E94 /* ContentView.swift in Sources */,
-				FA5A547E27691C00006E9D56 /* TelaDesafio.swift in Sources */,
 				B3A2B29A2757EA58001C7E94 /* AppClipsLocalizacaoApp.swift in Sources */,
 				B34099CE275FF36800A0F5EA /* MapView.swift in Sources */,
 				B34099D7275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */,
-				B34099D4275FF54800A0F5EA /* Tela Inicio.swift in Sources */,
 				B34099C8275FF30500A0F5EA /* SlideOverCard.swift in Sources */,
 				B34099D1275FF3EF00A0F5EA /* TelaPonto.swift in Sources */,
 				B3E052D627628015003D9214 /* EntrarDesafio.swift in Sources */,
@@ -485,6 +484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3E052D927629C22003D9214 /* CodigoDesafio.swift in Sources */,
+				EAEA679E27694457008A743E /* CheckpointManager.swift in Sources */,
 				FA7FA1312767BD5F0025B2C9 /* JornadaContentView.swift in Sources */,
 				FA32287D2767B3D8002F5CF0 /* ProjetoPeralitaApp.swift in Sources */,
 				B37F2CA0274D5B5D004021ED /* ViewComando.swift in Sources */,
@@ -499,15 +499,15 @@
 				B34099CA275FF34600A0F5EA /* Handle.swift in Sources */,
 				B3FC68E727691A35000A3E7E /* WidgetDesafios.intentdefinition in Sources */,
 				FA3228722767B2BD002F5CF0 /* LoginView.swift in Sources */,
-				FA7FA1332767BD9B0025B2C9 /* ListElement.swift in Sources */,
+				FA7FA1332767BD9B0025B2C9 /* Jornada.swift in Sources */,
 				B3E052D527627D68003D9214 /* EntrarDesafio.swift in Sources */,
-				FA7FA1372767BDE40025B2C9 /* CloudKitHelper.swift in Sources */,
+				FA7FA1372767BDE40025B2C9 /* JornadaManager.swift in Sources */,
+				EAEA67A02769454E008A743E /* Checkpoint.swift in Sources */,
 				FA3228742767B2E6002F5CF0 /* LoginSettings.swift in Sources */,
-				FA3228812767B435002F5CF0 /* User.swift.swift in Sources */,
-				FA32287F2767B3F5002F5CF0 /* PrincipalView.swift in Sources */,
-				FA3228832767B459002F5CF0 /* TelaInicioView.swift in Sources */,
-				B3F25D69273ED17400266C90 /* ContentView.swift in Sources */,
-				B34099D3275FF54800A0F5EA /* Tela Inicio.swift in Sources */,
+				FA3228812767B435002F5CF0 /* User.swift in Sources */,
+				FA32287F2767B3F5002F5CF0 /* MainView.swift in Sources */,
+				FA3228832767B459002F5CF0 /* TelaInicioView-old.swift in Sources */,
+				B34099D3275FF54800A0F5EA /* TelaInicioView.swift in Sources */,
 				FA5A547C27691B80006E9D56 /* TelaDesafioFinalizado.swift in Sources */,
 				B34099D0275FF3EF00A0F5EA /* TelaPonto.swift in Sources */,
 				FA3228852767B47F002F5CF0 /* QuickSignInWithApple.swift in Sources */,
@@ -549,7 +549,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppClipsLocalizacao/Preview Content\"";
-				DEVELOPMENT_TEAM = HFB9678VY3;
+				DEVELOPMENT_TEAM = 34E95R7U23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppClipsLocalizacao/Info.plist;
@@ -564,11 +564,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.MC4.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = mackmobile.CloudKit.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -581,7 +581,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppClipsLocalizacao/Preview Content\"";
-				DEVELOPMENT_TEAM = HFB9678VY3;
+				DEVELOPMENT_TEAM = 34E95R7U23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppClipsLocalizacao/Info.plist;
@@ -596,11 +596,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.MC4.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = mackmobile.CloudKit.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -730,7 +730,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MC4/Preview Content\"";
-				DEVELOPMENT_TEAM = 57MLN27MQM;
+				DEVELOPMENT_TEAM = 34E95R7U23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -744,8 +744,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Marcelo.LogincomCloudKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = mackmobile.CloudKit;
+				PRODUCT_NAME = MC4;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -762,7 +762,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MC4/Preview Content\"";
-				DEVELOPMENT_TEAM = 57MLN27MQM;
+				DEVELOPMENT_TEAM = 34E95R7U23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -776,8 +776,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Marcelo.LogincomCloudKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = mackmobile.CloudKit;
+				PRODUCT_NAME = MC4;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -791,7 +791,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HFB9678VY3;
+				DEVELOPMENT_TEAM = 34E95R7U23;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WidgetDesafios/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WidgetDesafios;
@@ -802,12 +802,12 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Marcelo.LogincomCloudKit.WidgetDesafios;
+				PRODUCT_BUNDLE_IDENTIFIER = mackmobile.CloudKit.WidgetDesafios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -818,7 +818,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HFB9678VY3;
+				DEVELOPMENT_TEAM = 34E95R7U23;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WidgetDesafios/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WidgetDesafios;
@@ -829,12 +829,12 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Marcelo.LogincomCloudKit.WidgetDesafios;
+				PRODUCT_BUNDLE_IDENTIFIER = mackmobile.CloudKit.WidgetDesafios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

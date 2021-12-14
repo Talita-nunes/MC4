@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct MC4App: App {
+    private let loginSettings: LoginSettings = LoginSettings()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            MainView().environmentObject(loginSettings)
+            TelaInicioView()
         }
     }
 }

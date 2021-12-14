@@ -10,7 +10,7 @@ import SwiftUI
 struct ConfirmarPonto: View {
     var body: some View {
         ZStack(alignment: Alignment.top){
-            TelaDesafio()
+//            TelaDesafio()
             SlideOverCard {
                 ZStack {
                     VStack {

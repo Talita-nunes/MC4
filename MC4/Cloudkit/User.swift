@@ -34,6 +34,10 @@ struct User: Identifiable {
               }
         return User(id: id, firstName: firstName, lastName: lastName, email: email, recordID: record.recordID)
     }
+    
+    func name() -> String {
+        return "\(firstName) \(lastName)"
+    }
 }
 
 extension User: CustomDebugStringConvertible {
