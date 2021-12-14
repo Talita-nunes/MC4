@@ -34,6 +34,20 @@
 		B3F25D69273ED17400266C90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D68273ED17400266C90 /* ContentView.swift */; };
 		B3F25D6B273ED17700266C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6A273ED17700266C90 /* Assets.xcassets */; };
 		B3F25D6E273ED17700266C90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */; };
+		FA3228702767B297002F5CF0 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32286F2767B297002F5CF0 /* LoginManager.swift */; };
+		FA3228722767B2BD002F5CF0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228712767B2BD002F5CF0 /* LoginView.swift */; };
+		FA3228742767B2E6002F5CF0 /* LoginSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228732767B2E6002F5CF0 /* LoginSettings.swift */; };
+		FA3228782767B32D002F5CF0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3228772767B32D002F5CF0 /* CloudKit.framework */; };
+		FA32287B2767B3AA002F5CF0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32287A2767B3AA002F5CF0 /* UserManager.swift */; };
+		FA32287D2767B3D8002F5CF0 /* ProjetoPeralitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32287C2767B3D8002F5CF0 /* ProjetoPeralitaApp.swift */; };
+		FA32287F2767B3F5002F5CF0 /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32287E2767B3F5002F5CF0 /* PrincipalView.swift */; };
+		FA3228812767B435002F5CF0 /* User.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228802767B435002F5CF0 /* User.swift.swift */; };
+		FA3228832767B459002F5CF0 /* TelaInicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228822767B459002F5CF0 /* TelaInicioView.swift */; };
+		FA3228852767B47F002F5CF0 /* QuickSignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228842767B47F002F5CF0 /* QuickSignInWithApple.swift */; };
+		FA7FA1312767BD5F0025B2C9 /* JornadaContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1302767BD5F0025B2C9 /* JornadaContentView.swift */; };
+		FA7FA1332767BD9B0025B2C9 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1322767BD9B0025B2C9 /* ListElement.swift */; };
+		FA7FA1352767BDC60025B2C9 /* ListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1342767BDC60025B2C9 /* ListElements.swift */; };
+		FA7FA1372767BDE40025B2C9 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1362767BDE40025B2C9 /* CloudKitHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +98,22 @@
 		B3F25D68273ED17400266C90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3F25D6A273ED17700266C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA32286F2767B297002F5CF0 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		FA3228712767B2BD002F5CF0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FA3228732767B2E6002F5CF0 /* LoginSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSettings.swift; sourceTree = "<group>"; };
+		FA3228752767B315002F5CF0 /* MC4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MC4.entitlements; sourceTree = "<group>"; };
+		FA3228772767B32D002F5CF0 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		FA32287A2767B3AA002F5CF0 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		FA32287C2767B3D8002F5CF0 /* ProjetoPeralitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoPeralitaApp.swift; sourceTree = "<group>"; };
+		FA32287E2767B3F5002F5CF0 /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
+		FA3228802767B435002F5CF0 /* User.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift.swift; sourceTree = "<group>"; };
+		FA3228822767B459002F5CF0 /* TelaInicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicioView.swift; sourceTree = "<group>"; };
+		FA3228842767B47F002F5CF0 /* QuickSignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSignInWithApple.swift; sourceTree = "<group>"; };
+		FA7FA12E2767BD490025B2C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA7FA1302767BD5F0025B2C9 /* JornadaContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaContentView.swift; sourceTree = "<group>"; };
+		FA7FA1322767BD9B0025B2C9 /* ListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
+		FA7FA1342767BDC60025B2C9 /* ListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElements.swift; sourceTree = "<group>"; };
+		FA7FA1362767BDE40025B2C9 /* CloudKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3228782767B32D002F5CF0 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +182,13 @@
 		B3F25D5A273ED17400266C90 = {
 			isa = PBXGroup;
 			children = (
+				FA3228862767BB2B002F5CF0 /* Jornada */,
+				FA3228792767B390002F5CF0 /* Cloudkit */,
+				FA32286E2767B287002F5CF0 /* Login */,
 				B3F25D65273ED17400266C90 /* MC4 */,
 				B3A2B2982757EA58001C7E94 /* AppClipsLocalizacao */,
 				B3F25D64273ED17400266C90 /* Products */,
+				FA3228762767B32D002F5CF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +204,7 @@
 		B3F25D65273ED17400266C90 /* MC4 */ = {
 			isa = PBXGroup;
 			children = (
+				FA3228752767B315002F5CF0 /* MC4.entitlements */,
 				B3F25D66273ED17400266C90 /* MC4App.swift */,
 				B3E052DC2763E22E003D9214 /* Launch Screen.storyboard */,
 				B3F25D68273ED17400266C90 /* ContentView.swift */,
@@ -185,8 +221,51 @@
 			isa = PBXGroup;
 			children = (
 				B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */,
+				FA3228802767B435002F5CF0 /* User.swift.swift */,
+				FA3228822767B459002F5CF0 /* TelaInicioView.swift */,
+				FA3228842767B47F002F5CF0 /* QuickSignInWithApple.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA32286E2767B287002F5CF0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA32286F2767B297002F5CF0 /* LoginManager.swift */,
+				FA3228712767B2BD002F5CF0 /* LoginView.swift */,
+				FA3228732767B2E6002F5CF0 /* LoginSettings.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA3228762767B32D002F5CF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA3228772767B32D002F5CF0 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3228792767B390002F5CF0 /* Cloudkit */ = {
+			isa = PBXGroup;
+			children = (
+				FA32287A2767B3AA002F5CF0 /* UserManager.swift */,
+				FA32287C2767B3D8002F5CF0 /* ProjetoPeralitaApp.swift */,
+				FA32287E2767B3F5002F5CF0 /* PrincipalView.swift */,
+			);
+			path = Cloudkit;
+			sourceTree = "<group>";
+		};
+		FA3228862767BB2B002F5CF0 /* Jornada */ = {
+			isa = PBXGroup;
+			children = (
+				FA7FA12E2767BD490025B2C9 /* SceneDelegate.swift */,
+				FA7FA1302767BD5F0025B2C9 /* JornadaContentView.swift */,
+				FA7FA1322767BD9B0025B2C9 /* ListElement.swift */,
+				FA7FA1342767BDC60025B2C9 /* ListElements.swift */,
+				FA7FA1362767BDE40025B2C9 /* CloudKitHelper.swift */,
+			);
+			path = Jornada;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,16 +388,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3E052D927629C22003D9214 /* CodigoDesafio.swift in Sources */,
+				FA7FA1312767BD5F0025B2C9 /* JornadaContentView.swift in Sources */,
+				FA32287D2767B3D8002F5CF0 /* ProjetoPeralitaApp.swift in Sources */,
 				B37F2CA0274D5B5D004021ED /* ViewComando.swift in Sources */,
 				B34099CD275FF36800A0F5EA /* MapView.swift in Sources */,
 				B34099C7275FF30500A0F5EA /* SlideOverCard.swift in Sources */,
 				B34099D6275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */,
+				FA3228702767B297002F5CF0 /* LoginManager.swift in Sources */,
+				FA32287B2767B3AA002F5CF0 /* UserManager.swift in Sources */,
 				B3E052DF2766856B003D9214 /* TelaDesafio.swift in Sources */,
+				FA7FA1352767BDC60025B2C9 /* ListElements.swift in Sources */,
 				B34099CA275FF34600A0F5EA /* Handle.swift in Sources */,
+				FA3228722767B2BD002F5CF0 /* LoginView.swift in Sources */,
+				FA7FA1332767BD9B0025B2C9 /* ListElement.swift in Sources */,
 				B3E052D527627D68003D9214 /* EntrarDesafio.swift in Sources */,
+				FA7FA1372767BDE40025B2C9 /* CloudKitHelper.swift in Sources */,
+				FA3228742767B2E6002F5CF0 /* LoginSettings.swift in Sources */,
+				FA3228812767B435002F5CF0 /* User.swift.swift in Sources */,
+				FA32287F2767B3F5002F5CF0 /* PrincipalView.swift in Sources */,
+				FA3228832767B459002F5CF0 /* TelaInicioView.swift in Sources */,
 				B3F25D69273ED17400266C90 /* ContentView.swift in Sources */,
 				B34099D3275FF54800A0F5EA /* Tela Inicio.swift in Sources */,
 				B34099D0275FF3EF00A0F5EA /* TelaPonto.swift in Sources */,
+				FA3228852767B47F002F5CF0 /* QuickSignInWithApple.swift in Sources */,
 				B3F25D67273ED17400266C90 /* MC4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,10 +612,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MC4/MC4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MC4/Preview Content\"";
-				DEVELOPMENT_TEAM = HFB9678VY3;
+				DEVELOPMENT_TEAM = 57MLN27MQM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -537,7 +630,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.MC4;
+				PRODUCT_BUNDLE_IDENTIFIER = Marcelo.LogincomCloudKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -551,10 +644,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MC4/MC4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MC4/Preview Content\"";
-				DEVELOPMENT_TEAM = HFB9678VY3;
+				DEVELOPMENT_TEAM = 57MLN27MQM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -568,7 +662,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SantosTalita.MC4;
+				PRODUCT_BUNDLE_IDENTIFIER = Marcelo.LogincomCloudKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
