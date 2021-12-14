@@ -71,9 +71,9 @@ struct TelaInicio: View {
                         }.padding(.leading, 8)
                         
                     }
-
+                    
                 }
-               
+                
                 
                 
                 
@@ -83,11 +83,13 @@ struct TelaInicio: View {
                         .padding(.leading,
                                  20)
                     Spacer()
-                    Button(action: {}, label: {
+                    Button(action: {
+//                        NavigationLink(destination: TelaPonto())
+                    }, label: {
                         Image(systemName: "plus")
                     })
                         .padding(.trailing, 20)
-                       
+                    
                 }
                 
                 List(linhaParticipando, id: \.id){ user in
@@ -109,13 +111,13 @@ struct TelaInicio: View {
                         
                     }
                     
-
+                    
                 }
             }
-    
-
-//            .navigationBarTitle("Desafio")
-//            .navigationBarTitleDisplayMode(.large)
+            
+            
+            //            .navigationBarTitle("Desafio")
+            //            .navigationBarTitleDisplayMode(.large)
             
             .toolbar(content: {
                 ToolbarItem(placement: .principal){
