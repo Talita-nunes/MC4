@@ -14,23 +14,28 @@ struct TelaDesafioFinalizado: View {
         ZStack(alignment: Alignment.top){
             TelaDesafio()
             SlideOverCard {
-                VStack{
-                    
-                    Text("Olá mundo")
-                    
-                    Image("confetti.png")
-                        .resizable()
-                        .clipped()
-                        .padding()
-                    
-                    
-                    Text("Parabéns você completou o desafio")
-                        .font(.system(size: 24, weight: .bold, design: .default))
-                        .foregroundColor(.black)
-                        .frame(maxWidth: .infinity, alignment: .topLeading)
-                        .padding(.top)
-                    
-                    Spacer()
+                ScrollView {
+                    VStack{
+                        
+                        
+                        Image("confetti")
+                            .resizable()
+                            .clipped()
+                            .frame(width: 200, height: 200)
+                            .padding(.top)
+                            .padding(.leading, 20)
+                        
+                        
+                        
+                        Text("Parabéns você completou o desafio")
+                            .font(.system(size: 17, weight: .bold, design: .default))
+                            .foregroundColor(.black)
+                            .frame(maxWidth: .infinity, alignment: .topLeading)
+                            .padding(.top, 50)
+                            .padding(.leading, 50)
+                        
+                        Spacer()
+                    }
                 }
             }
         }
