@@ -34,6 +34,13 @@
 		B3F25D69273ED17400266C90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F25D68273ED17400266C90 /* ContentView.swift */; };
 		B3F25D6B273ED17700266C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6A273ED17700266C90 /* Assets.xcassets */; };
 		B3F25D6E273ED17700266C90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */; };
+		B3FC68DC27691A33000A3E7E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC68DB27691A33000A3E7E /* WidgetKit.framework */; };
+		B3FC68DE27691A33000A3E7E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FC68DD27691A33000A3E7E /* SwiftUI.framework */; };
+		B3FC68E127691A33000A3E7E /* WidgetDesafios.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC68E027691A33000A3E7E /* WidgetDesafios.swift */; };
+		B3FC68E427691A35000A3E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FC68E327691A35000A3E7E /* Assets.xcassets */; };
+		B3FC68E627691A35000A3E7E /* WidgetDesafios.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B3FC68E227691A33000A3E7E /* WidgetDesafios.intentdefinition */; };
+		B3FC68E727691A35000A3E7E /* WidgetDesafios.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B3FC68E227691A33000A3E7E /* WidgetDesafios.intentdefinition */; };
+		B3FC68EA27691A35000A3E7E /* WidgetDesafiosExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B3FC68DA27691A33000A3E7E /* WidgetDesafiosExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FA3228702767B297002F5CF0 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32286F2767B297002F5CF0 /* LoginManager.swift */; };
 		FA3228722767B2BD002F5CF0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228712767B2BD002F5CF0 /* LoginView.swift */; };
 		FA3228742767B2E6002F5CF0 /* LoginSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228732767B2E6002F5CF0 /* LoginSettings.swift */; };
@@ -58,6 +65,13 @@
 			remoteGlobalIDString = B3A2B2962757EA58001C7E94;
 			remoteInfo = AppClipsLocalizacao;
 		};
+		B3FC68E827691A35000A3E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3F25D5B273ED17400266C90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3FC68D927691A33000A3E7E;
+			remoteInfo = WidgetDesafiosExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +84,17 @@
 				B3A2B2A62757EA5C001C7E94 /* AppClipsLocalizacao.app in Embed App Clips */,
 			);
 			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FC68EB27691A35000A3E7E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B3FC68EA27691A35000A3E7E /* WidgetDesafiosExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -98,6 +123,13 @@
 		B3F25D68273ED17400266C90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3F25D6A273ED17700266C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F25D6D273ED17700266C90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3FC68DA27691A33000A3E7E /* WidgetDesafiosExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetDesafiosExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FC68DB27691A33000A3E7E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B3FC68DD27691A33000A3E7E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B3FC68E027691A33000A3E7E /* WidgetDesafios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDesafios.swift; sourceTree = "<group>"; };
+		B3FC68E227691A33000A3E7E /* WidgetDesafios.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetDesafios.intentdefinition; sourceTree = "<group>"; };
+		B3FC68E327691A35000A3E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3FC68E527691A35000A3E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA32286F2767B297002F5CF0 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		FA3228712767B2BD002F5CF0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FA3228732767B2E6002F5CF0 /* LoginSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSettings.swift; sourceTree = "<group>"; };
@@ -129,6 +161,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3228782767B32D002F5CF0 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FC68D727691A33000A3E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FC68DE27691A33000A3E7E /* SwiftUI.framework in Frameworks */,
+				B3FC68DC27691A33000A3E7E /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +228,7 @@
 				FA32286E2767B287002F5CF0 /* Login */,
 				B3F25D65273ED17400266C90 /* MC4 */,
 				B3A2B2982757EA58001C7E94 /* AppClipsLocalizacao */,
+				B3FC68DF27691A33000A3E7E /* WidgetDesafios */,
 				B3F25D64273ED17400266C90 /* Products */,
 				FA3228762767B32D002F5CF0 /* Frameworks */,
 			);
@@ -197,6 +239,7 @@
 			children = (
 				B3F25D63273ED17400266C90 /* MC4.app */,
 				B3A2B2972757EA58001C7E94 /* AppClipsLocalizacao.app */,
+				B3FC68DA27691A33000A3E7E /* WidgetDesafiosExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,6 +271,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B3FC68DF27691A33000A3E7E /* WidgetDesafios */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC68E027691A33000A3E7E /* WidgetDesafios.swift */,
+				B3FC68E227691A33000A3E7E /* WidgetDesafios.intentdefinition */,
+				B3FC68E327691A35000A3E7E /* Assets.xcassets */,
+				B3FC68E527691A35000A3E7E /* Info.plist */,
+			);
+			path = WidgetDesafios;
+			sourceTree = "<group>";
+		};
 		FA32286E2767B287002F5CF0 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +296,8 @@
 			isa = PBXGroup;
 			children = (
 				FA3228772767B32D002F5CF0 /* CloudKit.framework */,
+				B3FC68DB27691A33000A3E7E /* WidgetKit.framework */,
+				B3FC68DD27691A33000A3E7E /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -296,16 +352,35 @@
 				B3F25D60273ED17400266C90 /* Frameworks */,
 				B3F25D61273ED17400266C90 /* Resources */,
 				B37F2C9A274D5A87004021ED /* Embed App Clips */,
+				B3FC68EB27691A35000A3E7E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B3A2B2A52757EA5C001C7E94 /* PBXTargetDependency */,
+				B3FC68E927691A35000A3E7E /* PBXTargetDependency */,
 			);
 			name = MC4;
 			productName = MC4;
 			productReference = B3F25D63273ED17400266C90 /* MC4.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B3FC68D927691A33000A3E7E /* WidgetDesafiosExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FC68EE27691A35000A3E7E /* Build configuration list for PBXNativeTarget "WidgetDesafiosExtension" */;
+			buildPhases = (
+				B3FC68D627691A33000A3E7E /* Sources */,
+				B3FC68D727691A33000A3E7E /* Frameworks */,
+				B3FC68D827691A33000A3E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetDesafiosExtension;
+			productName = WidgetDesafiosExtension;
+			productReference = B3FC68DA27691A33000A3E7E /* WidgetDesafiosExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -321,6 +396,9 @@
 						CreatedOnToolsVersion = 13.1;
 					};
 					B3F25D62273ED17400266C90 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B3FC68D927691A33000A3E7E = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -340,6 +418,7 @@
 			targets = (
 				B3F25D62273ED17400266C90 /* MC4 */,
 				B3A2B2962757EA58001C7E94 /* AppClipsLocalizacao */,
+				B3FC68D927691A33000A3E7E /* WidgetDesafiosExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -361,6 +440,14 @@
 				B3E052DD2763E22E003D9214 /* Launch Screen.storyboard in Resources */,
 				B3F25D6E273ED17700266C90 /* Preview Assets.xcassets in Resources */,
 				B3F25D6B273ED17700266C90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FC68D827691A33000A3E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FC68E427691A35000A3E7E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +486,7 @@
 				B3E052DF2766856B003D9214 /* TelaDesafio.swift in Sources */,
 				FA7FA1352767BDC60025B2C9 /* ListElements.swift in Sources */,
 				B34099CA275FF34600A0F5EA /* Handle.swift in Sources */,
+				B3FC68E727691A35000A3E7E /* WidgetDesafios.intentdefinition in Sources */,
 				FA3228722767B2BD002F5CF0 /* LoginView.swift in Sources */,
 				FA7FA1332767BD9B0025B2C9 /* ListElement.swift in Sources */,
 				B3E052D527627D68003D9214 /* EntrarDesafio.swift in Sources */,
@@ -415,6 +503,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3FC68D627691A33000A3E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FC68E627691A35000A3E7E /* WidgetDesafios.intentdefinition in Sources */,
+				B3FC68E127691A33000A3E7E /* WidgetDesafios.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -422,6 +519,11 @@
 			isa = PBXTargetDependency;
 			target = B3A2B2962757EA58001C7E94 /* AppClipsLocalizacao */;
 			targetProxy = B3A2B2A42757EA5C001C7E94 /* PBXContainerItemProxy */;
+		};
+		B3FC68E927691A35000A3E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3FC68D927691A33000A3E7E /* WidgetDesafiosExtension */;
+			targetProxy = B3FC68E827691A35000A3E7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -670,6 +772,60 @@
 			};
 			name = Release;
 		};
+		B3FC68EC27691A35000A3E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB9678VY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetDesafios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetDesafios;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marcelo.LogincomCloudKit.WidgetDesafios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3FC68ED27691A35000A3E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB9678VY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetDesafios/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetDesafios;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marcelo.LogincomCloudKit.WidgetDesafios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -696,6 +852,15 @@
 			buildConfigurations = (
 				B3F25D72273ED17700266C90 /* Debug */,
 				B3F25D73273ED17700266C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FC68EE27691A35000A3E7E /* Build configuration list for PBXNativeTarget "WidgetDesafiosExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FC68EC27691A35000A3E7E /* Debug */,
+				B3FC68ED27691A35000A3E7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

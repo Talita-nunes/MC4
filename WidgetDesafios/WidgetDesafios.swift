@@ -2,7 +2,7 @@
 //  WidgetDesafios.swift
 //  WidgetDesafios
 //
-//  Created by Talita Nunes dos Santos on 13/12/21.
+//  Created by Talita Nunes dos Santos on 14/12/21.
 //
 
 import WidgetKit
@@ -13,15 +13,15 @@ struct Provider: IntentTimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
         SimpleEntry(date: Date(), configuration: ConfigurationIntent())
     }
-    
+
     func getSnapshot(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (SimpleEntry) -> ()) {
         let entry = SimpleEntry(date: Date(), configuration: configuration)
         completion(entry)
     }
-    
+
     func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         var entries: [SimpleEntry] = []
-        
+
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
         for hourOffset in 0 ..< 5 {
@@ -29,7 +29,7 @@ struct Provider: IntentTimelineProvider {
             let entry = SimpleEntry(date: entryDate, configuration: configuration)
             entries.append(entry)
         }
-        
+
         let timeline = Timeline(entries: entries, policy: .atEnd)
         completion(timeline)
     }
@@ -42,43 +42,16 @@ struct SimpleEntry: TimelineEntry {
 
 struct WidgetDesafiosEntryView : View {
     var entry: Provider.Entry
-    
-    var body: some View {
-        
-        ZStack{
 
-            HStack{
-//                Image("image3")
-//                    .resizable()
-//                    .clipped()
-//                    .ignoresSafeArea()
-        
-                
-                VStack{
-                    Text("Nome do desafio")
-                        .font(.system(size: 17, weight: .bold, design: .default))
-                        .foregroundColor(.black)
-                        .frame(maxWidth: .infinity, alignment: .topLeading)
-                        .padding(.leading, 5)
-                    
-                    
-                    
-                    Text ("Frase motivacional")
-                        .font(.system(size: 12, weight: .medium, design: .default))
-                        .foregroundColor(.black)
-                        .frame(maxWidth: .infinity, alignment: .topLeading)
-                        .padding(.leading, 5)
-                }
-                
-            }
-        }
+    var body: some View {
+        Text(entry.date, style: .time)
     }
 }
 
 @main
 struct WidgetDesafios: Widget {
     let kind: String = "WidgetDesafios"
-    
+
     var body: some WidgetConfiguration {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             WidgetDesafiosEntryView(entry: entry)
