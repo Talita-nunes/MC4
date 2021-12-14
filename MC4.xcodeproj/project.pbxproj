@@ -51,6 +51,10 @@
 		FA3228812767B435002F5CF0 /* User.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228802767B435002F5CF0 /* User.swift.swift */; };
 		FA3228832767B459002F5CF0 /* TelaInicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228822767B459002F5CF0 /* TelaInicioView.swift */; };
 		FA3228852767B47F002F5CF0 /* QuickSignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3228842767B47F002F5CF0 /* QuickSignInWithApple.swift */; };
+		FA5A547B27691B80006E9D56 /* ConfirmarPonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A547927691B80006E9D56 /* ConfirmarPonto.swift */; };
+		FA5A547C27691B80006E9D56 /* TelaDesafioFinalizado.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A547A27691B80006E9D56 /* TelaDesafioFinalizado.swift */; };
+		FA5A547D27691BB0006E9D56 /* ConfirmarPonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A547927691B80006E9D56 /* ConfirmarPonto.swift */; };
+		FA5A547E27691C00006E9D56 /* TelaDesafio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E052DE2766856B003D9214 /* TelaDesafio.swift */; };
 		FA7FA1312767BD5F0025B2C9 /* JornadaContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1302767BD5F0025B2C9 /* JornadaContentView.swift */; };
 		FA7FA1332767BD9B0025B2C9 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1322767BD9B0025B2C9 /* ListElement.swift */; };
 		FA7FA1352767BDC60025B2C9 /* ListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7FA1342767BDC60025B2C9 /* ListElements.swift */; };
@@ -141,6 +145,8 @@
 		FA3228802767B435002F5CF0 /* User.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift.swift; sourceTree = "<group>"; };
 		FA3228822767B459002F5CF0 /* TelaInicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicioView.swift; sourceTree = "<group>"; };
 		FA3228842767B47F002F5CF0 /* QuickSignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSignInWithApple.swift; sourceTree = "<group>"; };
+		FA5A547927691B80006E9D56 /* ConfirmarPonto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmarPonto.swift; sourceTree = "<group>"; };
+		FA5A547A27691B80006E9D56 /* TelaDesafioFinalizado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaDesafioFinalizado.swift; sourceTree = "<group>"; };
 		FA7FA12E2767BD490025B2C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA7FA1302767BD5F0025B2C9 /* JornadaContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornadaContentView.swift; sourceTree = "<group>"; };
 		FA7FA1322767BD9B0025B2C9 /* ListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
@@ -179,6 +185,8 @@
 		B34099C5275FF2D800A0F5EA /* Tela ponto */ = {
 			isa = PBXGroup;
 			children = (
+				FA5A547927691B80006E9D56 /* ConfirmarPonto.swift */,
+				FA5A547A27691B80006E9D56 /* TelaDesafioFinalizado.swift */,
 				B34099C9275FF34600A0F5EA /* Handle.swift */,
 				B34099CC275FF36800A0F5EA /* MapView.swift */,
 				B34099C6275FF30500A0F5EA /* SlideOverCard.swift */,
@@ -458,7 +466,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5A547D27691BB0006E9D56 /* ConfirmarPonto.swift in Sources */,
 				B3A2B29C2757EA58001C7E94 /* ContentView.swift in Sources */,
+				FA5A547E27691C00006E9D56 /* TelaDesafio.swift in Sources */,
 				B3A2B29A2757EA58001C7E94 /* AppClipsLocalizacaoApp.swift in Sources */,
 				B34099CE275FF36800A0F5EA /* MapView.swift in Sources */,
 				B34099D7275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */,
@@ -481,6 +491,7 @@
 				B34099CD275FF36800A0F5EA /* MapView.swift in Sources */,
 				B34099C7275FF30500A0F5EA /* SlideOverCard.swift in Sources */,
 				B34099D6275FFFFB00A0F5EA /* TelaCriarDesafio.swift in Sources */,
+				FA5A547B27691B80006E9D56 /* ConfirmarPonto.swift in Sources */,
 				FA3228702767B297002F5CF0 /* LoginManager.swift in Sources */,
 				FA32287B2767B3AA002F5CF0 /* UserManager.swift in Sources */,
 				B3E052DF2766856B003D9214 /* TelaDesafio.swift in Sources */,
@@ -497,6 +508,7 @@
 				FA3228832767B459002F5CF0 /* TelaInicioView.swift in Sources */,
 				B3F25D69273ED17400266C90 /* ContentView.swift in Sources */,
 				B34099D3275FF54800A0F5EA /* Tela Inicio.swift in Sources */,
+				FA5A547C27691B80006E9D56 /* TelaDesafioFinalizado.swift in Sources */,
 				B34099D0275FF3EF00A0F5EA /* TelaPonto.swift in Sources */,
 				FA3228852767B47F002F5CF0 /* QuickSignInWithApple.swift in Sources */,
 				B3F25D67273ED17400266C90 /* MC4App.swift in Sources */,
